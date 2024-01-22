@@ -42,3 +42,9 @@ button:hover {
 p{
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+    .container > button {
+        width: 80%; /* Adjust the width as needed for smaller screens */
+    }
+}
